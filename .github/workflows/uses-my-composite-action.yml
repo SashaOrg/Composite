@@ -8,9 +8,9 @@ jobs:
     steps: 
       - uses: actions/checkout@v4 
       - id: foo 
-        uses: OWNER/REPONAME/ACTION_FOLDER@BRANCH_NAME #⬅  Zmienić  
+        uses: yatsss/Composite/ACTION_FOLDER@master #⬅  Zmienić  
         with: 
-          who-to-greet: <WPISZ_SWOJE_IMIĘ> #⬅  Uwaga 
+          who-to-greet: yatsss #⬅  Uwaga 
       - run: echo random-number "$RANDOM_NUMBER" 
         shell: bash 
         env: 
