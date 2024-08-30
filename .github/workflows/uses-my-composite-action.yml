@@ -8,9 +8,9 @@ jobs:
     steps: 
       - uses: actions/checkout@v4 
       - id: foo 
-        uses: SashaOrg/Composite/my_action_folder@master #⬅  Zmienić  
+        uses: ./my_action_folder # Assumes this is within the same repository
         with: 
-          who-to-greet: yatsss #⬅  Uwaga 
+          who-to-greet: yatsss 
       - run: echo random-number "$RANDOM_NUMBER" 
         shell: bash 
         env: 
