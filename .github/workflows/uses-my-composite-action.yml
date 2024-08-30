@@ -8,7 +8,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v4 
       - id: foo 
-        uses: SashaOrg/Composite/ACTION_FOLDER@master #⬅  Zmienić  
+        uses: SashaOrg/Composite/my_action_folder@master #⬅  Zmienić  
         with: 
           who-to-greet: yatsss #⬅  Uwaga 
       - run: echo random-number "$RANDOM_NUMBER" 
